@@ -6163,7 +6163,6 @@ textarea.form-control-lg {
 
 
 .testimonial {
-  padding: 10px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -6179,7 +6178,7 @@ textarea.form-control-lg {
 }
 
 .testimonial .testimonial-img {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 10px;
   text-align: center;
 }
