@@ -6160,6 +6160,67 @@ textarea.form-control-lg {
   color: #212529;
 }
 
+
+.testimonial {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.testimonial .testimonial-name {
+  padding: 5px;
+  text-align: center;
+  font-size: 21px;
+}
+
+.testimonial .testimonial-description {
+  font-size: 12px;
+}
+
+.testimonial .testimonial-img {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.testimonial-img img {
+  height: 75px;
+  border-radius: 50%;
+}
+
+@media (min-width: 992px) {
+  .testimonials-section {
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+
+  .testimonials-section .testimonial {
+    padding: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  
+  .testimonial .testimonial-name {
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .testimonial .testimonial-description {
+    font-size: 16px;
+  }
+  
+  .testimonial .testimonial-img {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .testimonial-img img {
+    height: 100px;
+    border-radius: 50%;
+  }
+}
+
 .carousel {
   position: relative;
 }
@@ -6183,6 +6244,7 @@ textarea.form-control-lg {
   position: relative;
   display: none;
   float: left;
+  height: 400px;
   width: 100%;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
